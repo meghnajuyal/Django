@@ -1,0 +1,23 @@
+{% extends "blog_app/base.html" %}
+
+{% block body_block %}
+
+  <div class="centerstage">
+
+    {% for post in post_list %}
+     <div class="card">
+       <div class="container">
+           <h1><a style="color:rgb(0, 51, 102);" href="{% url 'detailview' pk=post.pk %}">{{post.title}}</a></h1>
+           <h5 class ="blogtext">Published on:{{post.published_date|date:"D M Y"}}</h5>
+           <a href="{% url 'detailview' pk=post.pk %}">Comments :{{post.approve_comments.count}}</a>
+
+       </div>
+     </div>
+  
+
+
+  {% endfor %}
+
+
+</div>
+{% endblock %}

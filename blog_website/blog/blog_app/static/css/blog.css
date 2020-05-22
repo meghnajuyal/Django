@@ -1,0 +1,63 @@
+.techfont{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 1.5em;
+  color:rgb(255,255,255);
+}
+.bigbrand{
+  font-size: 1.5em;
+}
+.centerstage{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+  border-radius: 10px;
+  width:350px;
+  height: 150px;
+  margin-top:20px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card.container{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.title{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.blogtext{
+  font-family: 'Playfair Display', serif;
+
+}
+.comment {
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  padding: 50px;
+  border: 1px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.author{
+  font-weight: bolder;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  color:rgb(26, 140, 255);
+
+}
+.content container{
+  overflow: scroll;
+}
